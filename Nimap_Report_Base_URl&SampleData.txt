@@ -1,0 +1,112 @@
+1) POST - create a new category
+
+URL : 
+
+		http://localhost:8080/addData
+
+
+Sample Data:
+ 
+	{
+   		 "categoryName": "Electronics"
+	}
+
+
+2)GET all the categories
+
+URL : 
+
+	http://localhost:8080/allCategories
+
+
+3) GET category by Id
+
+URl : 
+
+	http://localhost:8080/getById/{id}
+
+
+4)PUT - update category by id
+
+URl : 
+	http://localhost:8080/update/categories/{id}
+
+sample data
+
+	
+	{
+   		 "categoryName": "Electronics"
+	}
+
+5)DELETE - Delete category by id
+
+URl : 
+
+        http://localhost:8080/delete/categories/{di}
+
+
+
+1) GET all the products
+
+URL : 
+
+	http://localhost:8080/allProducts?page=0
+
+
+2)POST - create a new product
+
+URl :
+
+     http://localhost:8080/add
+
+
+Sample data : 
+
+	{
+    "name": "Laptop",
+    "price": 1200.99,
+    "category": {
+        "categoryName": "gorcery"
+    }
+}
+
+3) GET product by Id
+
+URL : 
+
+http://localhost:8080/getProductById/{id}
+
+4)PUT - update product by id
+
+URl : 
+
+http://localhost:8080/update/Products/{id}
+
+Sample data : 
+
+	{
+    "name": "screw",
+    "price": 1200.99,
+    "category": {
+        "categoryName": "hradware"
+    }
+}
+
+
+5)DELETE - Delete product by id
+
+url: 
+
+	http://localhost:8080/delete/products/{di}
+
+	
+
+
+
+
+
+
+
+
+
+
